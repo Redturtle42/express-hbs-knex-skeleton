@@ -53,3 +53,4 @@ A fontosabb helperekről (mint pl. with, each) találtok doksit a Handlebars [gu
     `app.use('/myRoute', myRouteRouter);`
 - Az adatbázisműveletek **aszinkronok**, és mindig egy **Promise**-t adnak vissza! 
 Mindig **await**eljük a Promise-t (ilyenkor a function **async** lesz!), vagy használjuk a **.then()** metódust. 
+- Last but not least: keep it simple! Ne bonyolítsátok túl!
